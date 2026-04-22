@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+	<title>Crest Website</title>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg" > 
+ 
+  <!-- <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> -->
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image//logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: white;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#industry">Industry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#custmerStories">Customer Stories</a>
+          </li>
+       
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+          <li class="nav-item justify-content-end login" style="float: right;"> <a class="nav-link" href="#">Login</a></li>
+          <li class="nav-item justify-content-end talk" style="float: center;"> <a href="" class="nav-link ">Talk to Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="hero container-fluid">
+         <div class="heroSection container">
+          <div class="hero_text hero">
+            <h1>Healthy Smiles Start Here😁 <span class="span">Discover premium oral care products</span></h1>
+            <h6>Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. 
+              In short, we make supply meet demand, and then help you grow both. </h6>
+              <button class="get">Get started with Crest</button>
+          </div>
+          <div class="hero_img">
+           
+              <img src="image/HeroImage.svg" >
+          </div>
+         </div>
+  </div>
+
+  <div class="container key_problem" >
+    <h1> Four Key questions answered by Crest</h1>
+    <div class="row questions">
+      <div class="col">
+        <i class="fa fa-list" style="font-size:60px;color:rgb(160, 48, 143);text-shadow:2px 2px 4px #f1bd62;"></i>
+        <h3>What to order</h3>
+        <p>Get accurate demand and days to stock out. Automate purchase planning so you can always have what you need for your next sales cycle</p>
+      </div>
+      <div class="col">
+        <i class="fa fa-lock" style="font-size:60px;color:rgb(160, 48, 143);text-shadow:2px 2px 4px #f1bd62;"></i>
+        <h3>When to order</h3>
+        <p>Have up-to-date inventory, storage, sales velocity, and demand. Get timely order suggestions so you're never left guessing.</p>
+      </div>
+      <div class="col">
+        <i class="fa fa-home" style="font-size:60px;color:rgb(160, 48, 143);text-shadow:2px 2px 4px #f1bd62;"></i>
+        <h3>How much to stock</h3>
+        <p>Get inventory requirements for every node, for every SKU. So you avoid out-of-stock situations, even during demand spikes.</p>
+      </div>
+      <div class="col">
+       
+        <i class="fa fa-file" style="font-size:60px;color:rgb(160, 48, 143);text-shadow:2px 2px 4px #f1bd62;"></i>
+
+        <h3>Where to place</h3>
+        <p>Our tool suggests how to move stock within your supply chain. So you'll always have products available across cities.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="metrics container-fluid" style="background-image: url(image/background.jpg);background-position: cover;">
+   <div class=" container ">
+    <div class="row matricsrow">
+      <div class="col">
+        <h2>STOKOUTS</h2>
+        <strong class="countdown" id="countdown">0</strong><span>%</span>
+        <br>
+        <strong>Reduction in out-of-stock</strong>
+      </div>
+      <div class="col">
+        <h2>CASH RECOVERY CYCLE</h2>
+        <strong class="countdown" id="countdown2">25</strong><span>Days</span>
+        <br>
+        <strong>Reduction in cash Recovery time</strong>
+      </div>
+      <div class="col">
+        <h2>REVENUE</h2>
+        <strong class="countdown" id="countdown3">15</strong><span>%</span>
+        <br>
+        <STRONG>Growth in revenue</STRONG>
+      </div>
+    </div>
+    
+   </div>
+</div>
+<div class="container-fluid logo-scroll">
+  <div class="logos">
+  <img src="image/ajanta.jpg">
+  <img src="image/blutribe.jpg">
+  <img src="image/everbloom.png">
+  <img src="image/furlanco.png">
+  <img src="image/pilgrim.jpg">
+  <img src="image/plix.png">
+  <img src="image/rr.png">
+  <img src="image/swtantra.png">
+  <img src="image/sylvi.jpg">
+  <img src="image/uncover.jpg">
+  </div>
+</div>
+ <div class="Reviews container">
+  <div class="row reviewsrow">
+       <div class="content col">
+        <p>As Co-founders, we had zero clue on the real time stock levels in our warehouse. It felt like a battle to manually update invoices from EE to Zoho, so that at least some data points can be tracked.
+          While we had already implemented Crest I had no clue that they could make this API integration work for us and exactly the way we wanted it to work. Thank you team Rahul Vishwakarma & Yogesh Byahatti for identifying the problem and being so quick with the solution, kudos to the amazing team you have.</p>
+     
+          <div class="row  " style="margin-top: 40px;">
+        <div class="col"><img src="image/profile.jpg" width="40%">
+        
+        </div>
+
+            <div class="col pro" style="margin-left: -100px;">
+              <h3>Kirti Goel</h3>
+              <h6>Co-founder,P-TAL</h6>
+            </div>
+        <div class="col proimg"><img src="image/PTAL.png" width="100%" style="margin-bottom: 10px;"></div>
+
+        <div>
+          <img src="image//left.png" width="5%">
+          <img src="image/right.png" width="5%">
+        </div>
+      </div>
+      <div class="row3">
+        <div class="cols"><h2>Automated invoices Reconciliation</h2></div>
+        <div class="cols"><h2>Channel wise Sales Classification  </h2></div>
+      </div>
+       </div>
+      <div class="content-image col">
+        <img src="image/content-image.jpg" width="90%">
+      </div>
+  </div>
+ </div>
+ <div class="container section5">
+  <h1>Things your spreadsheet wishes it could do</h1>
+  <div class="row container">  
+    <div class="col">
+      <div class=" tab ">
+        <button class="tablinks" onclick="tablink(event, 'accurate')">Accurate Demand Forecasting</button>
+        <button class="tablinks" onclick="tablink(event, 'helix')">Helix: Workflow Automation</button>
+        <button class="tablinks" onclick="tablink(event, 'automated')">Automated Purchase Planning</button>
+        <button class="tablinks" onclick="tablink(event, 'integration')">Easy Integration</button>
+        <button class="tablinks" onclick="tablink(event, 'cusome')">Custom Dashboards</button>
+        <button class="tablinks" onclick="tablink(event, 'planning')">Consensus Planning</button>
+      
+    </div>
+  </div>
+
+  <div class="col " style="background-image: url('image/lightbg.png');">
+<div id="accurate" class="tabcontent active" >
+  <img src ="image/63f64bb2507621d0bf7da369_Demand forecasting-p-3200.webp" width="100%">
+</div>
+
+<div id="helix" class="tabcontent" >
+  <img src ="image/helix.webp" width="100%">
+</div>
+
+<div id="automated" class="tabcontent" >
+<img src="image/automated.webp"width="100%">
+</div>
+<div id="integration" class="tabcontent">
+  <img src="image/integration.webp"width="100%">
+  </div>
+  <div id="cusome" class="tabcontent" >
+    <img src="image/dashboard.webp"width="100%">
+    </div>
+    <div id="planning" class="tabcontent" >
+      <img src="image/consensus.png"width="100%">
+      </div>
+</div>
+ </div>  
+
+  <div class="feature"><button class="feature_btn">View all Features</button></div>
+     
+ </div>
+<div class="section6 container-flued">
+  <h1>Get Crest and get...</h1>
+  
+<!-- Carousel -->
+<div id="demo" class="carousel slide container" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="row">
+      <div class="col"> <img src="image/639b3e775b326d486cea3f09_Focus on KPIs that matter.svg" alt="Los Angeles" class="d-block" style="width:80%"></div>
+      <div class="col carousel_text ">
+         <h2>A Focus on KPIs that matter</h2>
+        <h6>Our tools help you make decisions to grow your business, Everything works towards improving cash flow and product availability.</h6>
+      </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col"> <img src="image/deep_domain.png" alt="Los Angeles" class="d-block" style="width:70%"></div>
+        <div class="col carousel_text"> <h2>Deep Domain expertise</h2>
+          <h6>Our team members have years of experience leading supply chains for business ranging $10M to $10B.</h6>
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col"> <img src="image/639b3e775b326dab14ea3f0b_Purpose-built & ever-improving tech.svg" alt="Los Angeles" class="d-block" style="width:80%"></div>
+        <div class="col carousel_text"> <h2>Purpose-built &  ever-improving tech</h2>
+          <h6>Our demand forecasting engine has been meticulously-built, while our ML engine constaintly trains on years of data and is ever-evolving.</h6>
+        </div>
+        </div>
+    </div>
+
+     <div class="carousel-item">
+      <div class="row">
+        <div class="col"> <img src="image/639b3e775b326d5150ea3f0a_Ease of use.svg" alt="Los Angeles" class="d-block" style="width:80%"></div>
+        <div class="col carousel_text"> <h2>Ease of use, for everyone</h2>
+          <h6>with an intuitive interface and empathetic design, Crest requires only minimal training (for beginner-level knowledge of supply chain) to use.</h6>
+        </div>
+        </div>
+    </div>
+
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+  <div>
+
+  </div>
+</div>
+<div class="grow container-flued">
+
+   <div class="container" style="background-image: url( image/57-light-day-purple-gradient.jpg); ">
+    
+    <h1>You can grow faster then you think!</h1>
+   
+    <p>Plan with Crest to fulfil your demand today, and dreams tomorrow. We bring the methods and technologies of large global companies to help brands of all sizes scale.</p>
+    <diV class="crestbtn"> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="background-color: black; border-radius: 30px; padding: 15px; color: white; ">     
+      Get started with Crest
+  </button></diV>
+     
+   
+    
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: rgb(228, 192, 228);">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Get started with Crest</h4>
+           
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          
+          </div>
+          <p>Take a free tour of our plateform</p>
+    
+          <!-- Modal body -->
+          <div class="modal-body" >
+            <form action="/action_page.php">
+              <div class="mb-3 mt-3"> 
+                <label for="fname">First Name* </label>
+                <input type="text" class="form-control" id="fname" placeholder="Nell" name="fname">
+              </div>
+              <div class="mb-3">
+                <label for="sname">Last Name* </label>
+                <input type="text" class="form-control" id="sname" placeholder="Nell" name="sname">
+              </div>
+              <div class="mb-3">
+                <label for="email">Work email* </label>
+                <input type="email" class="form-control" id="email" placeholder="nell@getcrest.ai" name="email">
+              </div>
+              
+              <div class="mb-3">
+                <label for="phnNum">Phone number* </label>
+                <input type="number" class="form-control" id="phnNum" placeholder="Enter your phone number here" name="phnNum">
+              </div>
+              <div class="mb-3">
+                <label for="company">Company name* </label>
+                <input type="text" class="form-control" id="company" placeholder="Crest AI" name="company">
+              </div>
+              <button type="submit" class="btn btnmodel">Submit</button>
+            </form>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <b>Already have an account? <a href="">Log in</a> </b>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+   
+  </div>
+
+<div class="footer"> 
+
+  <div class="row">
+    <div class="col"> <img src="image/logo.png" width="100%">
+      
+      <p style="padding-top: 20px;">Crest is an AI-powered supply chain software that provides companies tools for demand forecasting, inventory planning and more. This helps them have the right amount of stock, optimise space and fulfil every order.</p>
+    </div>
+    <div class="col">
+      <ul class="footerlist">
+        <li><b>Explore</b></li>
+        <li>Product</li>
+        <li>Pricing</li>
+        <li>Customer Stories</li>
+        <li>Career</li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="footerlist">
+        <li><b>Lean</b></li>
+        <li>About us</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div class="col">
+      <p><b>Contact Crest</b></p>
+      <p>sales@getcrest.ai</p>
+      <p>Registered Office:
+        1507, Incubex, 11th cross road, 19th Main Road, Bengaluru, India. 560102</p>
+        <p>Corporate Office: 291, All Time Space, 4th Floor, 15th A Cross, Sector - 6, HSR Layout, Bengaluru, India. 560102</p>
+        <ul class="social">
+          <li><img src="image/youtube.png" alt="Youtube"></li>
+          <li><img src="image/facebook.png" alt="Facebook"></li>
+          <li><img src="image/instagram-50.png" alt="instagram"></li>
+          <li><img src="image/linked-in.png" alt="linkedin"></li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col footerbold">
+      
+      <b>Copyright 2024 Crest</b>
+      <b>Terms of Service</b>
+      <b>Privacy Policy</b>
+      <br><br>
+        <p>Conifer Innovations Private Limited
+          CIN: U72900KA2022PTC163144</p>
+      </div>
+      <div class="col " style="justify-content: end;">
+        <a href=""><img src="image/slide-up.png" width="10%"></a>
+      </div>
+    </div>
+    
+  
+</div>
+</body>
+<script src="JS/script.js"></script>
+
+<script>
+  function tablink(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</html>
