@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: #1e293b;
+    color: white;
+    padding: 50px;
+}
+ header h3 {
+            font-size: 30px;
+            margin: 0;
+}
+  header p {
+            color: #94a3b8;
+}
+ section {
+            padding: 40px;
+}
+.h2{
+   margin-left:3% ;
+    
+   
+}
+nav {
+    display: flex;
+    gap: 25px;
+}
+nav a {
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+}
+nav a:hover{
+    color: #00f2fe;
+}
+.menu-toggle{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.about{
+    padding: 50px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+.img-box{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px;
+    border: 3px solid #38bdf8;
+    box-shadow: 0 0 25px #38bdf8;
+    transition: 0.4s;
+}
+.img-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px #38bdf8;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-text{
+        max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cbd5f5;
+}
+
+.about-container p {
+    max-width: 600px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+}
+.skill{
+    padding: 10px 20px;
+    background: #1e293b;
+    border-radius: 20px;
+    border: 1px solid #38bdf8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+.skill i{
+    font-size: 18px;
+    color: #38bdf8;
+}
+.skill:hover{
+   background: #38bdf8;
+    color: black; 
+}
+.skill:hover i {
+    color: black;
+}
+/* Fade Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.8s ease-in-out;
+}
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.bar{
+   background: #add;
+   border-radius: 10px;
+   overflow: hidden;  
+}
+.bar div{
+    height: 10px;
+    background: #667eea;
+}
+.resume-btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.resume-btn:hover {
+    background: #0ea5e9;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+     gap: 25px;
+    /* justify-content: center;
+    padding: 40px;
+    text-align: center; */
+}
+.project-card{
+    background: #1e293b;
+    padding: 15px;
+    transition: 0.3s;
+    text-align: center;
+     border-radius: 10px;
+     /* margin: 15px; 
+    box-shadow: 0px 4px 10px rgba(0,0,0,.1); 
+    width: 250px;
+     display: inline-block;
+    */
+  
+}
+.project-card img {
+    width: 50%;
+    border-radius: 10px;
+}
+ .project-card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+.project-card h3{
+    margin-top: 0;
+}
+h2 {
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contact{
+    text-align: center;
+    padding: 50px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+ a {
+            color: #38bdf8;
+            text-decoration: none;
+}
+.buttons {
+    margin-top: 10px;
+}
+.buttons a{
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 8px;
+   background: #38bdf8;
+    color: black;
+    transition: 0.3s;
+   font-size: 14px;
+}
+.buttons a:hover{
+    background: black;
+    color: white;
+}
+.project-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+button, a {
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        background: #111;
+        position: absolute;
+        top: 60px;
+        right: 0;
+         width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+  nav a{
+    padding: 15px;
+    display: block;
+    border-bottom: 1px solid #333;
+  } 
+  .menu-toggle{
+    display: block;
+  }  
+  .projects{
+    display: grid;
+  }
+      .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
